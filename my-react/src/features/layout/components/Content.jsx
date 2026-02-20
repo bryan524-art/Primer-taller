@@ -5,16 +5,14 @@ export function Content() {
     <main className="container my-5">
       <div className="row">
         
-        {/* LISTADO DE PRODUCTOS */}
         <div className="col-lg-8">
           <div className="card shadow-sm mb-4">
             <div className="card-body">
               <h3 className="card-title">Productos</h3>
-              <p className="text-muted">Mostrando 6 productos</p>
+              <p className="text-muted">Mostrando 4 productos</p>
 
               <div className="row g-4">
 
-                {/* Producto */}
                 <div className="col-md-6">
                   <div className="card h-100 shadow-sm">
                     <img
@@ -38,14 +36,80 @@ export function Content() {
                   </div>
                 </div>
 
-                {/* Puedes duplicar este bloque para más productos */}
+                <div className="col-md-6">
+                  <div className="card h-100 shadow-sm">
+                    <img
+                      src="https://images.pexels.com/photos/3394666/pexels-photo-3394666.jpeg?auto=compress&cs=tinysrgb&w=600"
+                      className="card-img-top"
+                      alt="Auriculares Bluetooth"
+                    />
+                    <div className="card-body">
+                      <h5 className="card-title">Auriculares Bluetooth</h5>
+                      <p className="fw-bold">COP $159.900</p>
+                      <span className="badge bg-success">En stock</span>
+                    </div>
+                    <div className="card-footer d-flex justify-content-between">
+                      <button className="btn btn-outline-primary btn-sm">
+                        Editar
+                      </button>
+                      <button className="btn btn-outline-danger btn-sm">
+                        Eliminar
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="col-md-6">
+                  <div className="card h-100 shadow-sm">
+                    <img
+                      src="https://images.pexels.com/photos/3394666/pexels-photo-3394666.jpeg?auto=compress&cs=tinysrgb&w=600"
+                      className="card-img-top"
+                      alt="Auriculares Bluetooth"
+                    />
+                    <div className="card-body">
+                      <h5 className="card-title">Auriculares Bluetooth</h5>
+                      <p className="fw-bold">COP $159.900</p>
+                      <span className="badge bg-success">En stock</span>
+                    </div>
+                    <div className="card-footer d-flex justify-content-between">
+                      <button className="btn btn-outline-primary btn-sm">
+                        Editar
+                      </button>
+                      <button className="btn btn-outline-danger btn-sm">
+                        Eliminar
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="col-md-6">
+                  <div className="card h-100 shadow-sm">
+                    <img
+                      src="https://images.pexels.com/photos/3394666/pexels-photo-3394666.jpeg?auto=compress&cs=tinysrgb&w=600"
+                      className="card-img-top"
+                      alt="Auriculares Bluetooth"
+                    />
+                    <div className="card-body">
+                      <h5 className="card-title">Auriculares Bluetooth</h5>
+                      <p className="fw-bold">COP $159.900</p>
+                      <span className="badge bg-success">En stock</span>
+                    </div>
+                    <div className="card-footer d-flex justify-content-between">
+                      <button className="btn btn-outline-primary btn-sm">
+                        Editar
+                      </button>
+                      <button className="btn btn-outline-danger btn-sm">
+                        Eliminar
+                      </button>
+                    </div>
+                  </div>
+                </div>
 
               </div>
             </div>
           </div>
         </div>
 
-        {/* FORMULARIO */}
         <div className="col-lg-4">
           <div className="card shadow-sm">
             <div className="card-header bg-primary text-white">
